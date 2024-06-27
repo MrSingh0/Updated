@@ -1,0 +1,73 @@
+.main {
+  position: relative; /* Add this line */
+  background-image: url("../../assets/main.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.482) !important;
+  z-index: 100;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0; /* Add this line */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  z-index: 1;
+}
+
+.main h1 {
+  position: absolute;
+  top: 0;
+  margin-top: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 140, 0),
+    rgb(255, 140, 0),
+    white,
+    rgba(2, 117, 2, 0.982),
+    rgba(2, 117, 2, 0.982)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1000;
+}
+
+.main p {
+  position: absolute;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8rem;
+  top: 60vh;
+  z-index: 1000;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.main img {
+  position: relative;
+  top: 35vh;
+  height: 20vh;
+  margin-left: 46vw;
+  z-index: 1000;
+}
+
+.main .scroll {
+  position:absolute;
+  bottom: 3rem;
+  font-weight: 700;
+  left: 47%;
+  font-size: 1.2rem;
+  color: green !important;
+}

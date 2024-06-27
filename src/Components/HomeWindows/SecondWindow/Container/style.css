@@ -1,0 +1,22 @@
+.sec{
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.box{
+    height: 50vh;
+    width: 25vw;
+    background-color: black;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: crimson;
+}
+
+.imagebox img{
+    border: 3px solid black;
+    border-radius: 0.5rem;
+}

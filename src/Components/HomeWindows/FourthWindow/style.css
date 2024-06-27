@@ -1,0 +1,12 @@
+.fourth{
+    background: var(--white);
+    color: var(--black);
+}
+
+.container{
+    cursor: pointer;
+}
+
+.container:hover{
+    background-color: crimson;
+}

@@ -1,0 +1,36 @@
+.ppage{
+    background-color: white;
+    height: 70vh;  
+}
+
+.all{
+    color: black;
+}
+
+.all img{
+    border-radius: 1rem;
+    height: 30vh;
+    width: 100%;
+}
+
+.all .cont{
+    transition: transform 0.3s ease;
+    color: black!important;
+    padding: 8px;
+}
+
+.all .cont:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border: 3px solid crimson;
+    border-radius: 1rem;
+}
+
+.product-page .path{
+    color: crimson!important;
+}
+
+.product-page .para{
+    color: crimson!important;
+}
+

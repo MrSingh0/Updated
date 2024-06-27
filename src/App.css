@@ -1,0 +1,39 @@
+:root{
+  --white: white;
+  --black: #171717;
+}
+
+body{
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: var(--black); */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+::selection{
+  background-color: var(--dark);
+  color: var(--gray);
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: crimson;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: crimson;
+}
+
+a{
+  color: var(--white) !important;
+  text-decoration: none !important;
+}

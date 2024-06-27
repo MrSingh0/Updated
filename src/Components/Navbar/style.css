@@ -1,0 +1,56 @@
+.Navbar {
+  color: var(--white);
+  background-color: var(--black);
+  height: 9.5vh;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav p:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 140, 0),
+    rgb(255, 140, 0),
+    white,
+    rgba(2, 117, 2, 0.982),
+    rgba(2, 117, 2, 0.982)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+
+.menu-button {
+  display: none;
+}
+
+.MuiPaper-root{
+    backdrop-filter: blur(8px)!important;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+@media (max-width: 1200px) {
+  .nav ul {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+

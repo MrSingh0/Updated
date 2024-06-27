@@ -1,0 +1,33 @@
+.third{
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--white);
+    align-items: center;
+    color: var(--black)!important;
+    padding-bottom: 3rem;
+}
+
+.third h1{
+    color: crimson;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.third p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.third img{
+    height: 80vh;
+    width: 70vw;
+}
+
+.third .text{
+    padding: 10px;
+    padding-left: 30px;
+    width: 55%;
+}
+
+.third .con{
+    width: 45%;
+}

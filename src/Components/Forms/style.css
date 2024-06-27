@@ -1,0 +1,25 @@
+.feedform{
+    padding-top: 20px;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(white);
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+
+
+.feedform .message{
+    width: 50%;
+}
+
+.feedform button{
+    background: rgb(8, 99, 246);
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 7px 40px;
+    border-radius: 2rem;
+}
