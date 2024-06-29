@@ -43,7 +43,6 @@
 }
 
 
-
 .second{
     border-radius: 1rem;
 }
@@ -51,7 +50,7 @@
 .second button{
     background: crimson;
     color: white;
-    width: 40%;
+    width: 15rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -59,3 +58,33 @@
     padding: 7px 40px;
     border-radius: 2rem;
 }
+
+
+@media (max-width: 915px) {
+    .change {
+        flex-direction: column!important;
+    }
+    .change div{
+        height: 7rem;
+        margin-bottom: 1rem;
+    }
+    .this{
+        width: 20rem;
+    }
+    .fom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 560px){
+    .mni{
+        width: 100vw;
+    }
+    .fom{
+        width: 20rem;
+        padding: 0%;
+    }
+} 
+

@@ -8,11 +8,11 @@ import "./Cstyle.css"
 const ContactForm = () => {
     return (
         <div className='tact'>
-            <div className='flex flex-col start'>
+            <div className='mni flex flex-col start'>
                 <h1 className='text-3xl pt-5 pb-3 text-red-600 font-medium'>CONTACT</h1>
                 <h1 className='text-4xl text-black font-medium '><u className='decoration-red-600 decoration-3'>KEEP</u> IN TOUCH</h1>
-                <div className='flex flex-row text-center w-full justify-around items-center mt-5 w-2/4 text-center '>
-                    <div className='col flex h-36'>
+                <div className='change flex text-center w-full justify-around items-center mt-5 w-2/4 text-center '>
+                    <div className='this col flex h-36 mi64'>
                         <div className='w-16 content-center '>
                             <LocationOnSharpIcon className='bg-gray-600 rounded-full text-white p-1' />
                         </div>
@@ -21,7 +21,7 @@ const ContactForm = () => {
                             <p className='font-medium'>Shop:1 Bankora, Dungarpur, Rajasthan, 314001</p>
                         </div>
                     </div>
-                    <div className='col flex h-36 ml-2 mr-2'>
+                    <div className='this col flex h-36 ml-2 mr-2 '>
                         <div className='w-16 content-center'>
                             <LocalPhoneIcon className='bg-gray-600 rounded-full text-white p-1' />
                         </div>
@@ -30,7 +30,7 @@ const ContactForm = () => {
                             <p className='font-medium'>+91 63 78 08 84 59</p>
                         </div>
                     </div>
-                    <div className='col flex h-36'>
+                    <div className='this col flex h-36 '>
                         <div className='w-16 content-center'>
                             <MailOutlineOutlinedIcon className='bg-gray-600 rounded-full text-white p-1' />
                         </div>
@@ -41,7 +41,7 @@ const ContactForm = () => {
 
                     </div>
                 </div>
-                <div className='w-2/4 text-center w-full mt-4'>
+                <div className=' fom w-2/4 text-center w-full mt-4'>
                     <form action="" className='second pl-5 pr-5 flex flex-col w-3/4 gap-3 pt-2'>
                         <TextField
                             id="outlined-start-adornment"
