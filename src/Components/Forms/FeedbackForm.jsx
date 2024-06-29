@@ -15,7 +15,7 @@ export default function FeedbackForm() {
   };
 
   return (
-    <div className='mn flex justify-center w-full h-full bg-gray-200'>
+    <div className='mn flex justify-center w-full bg-gray-200'>
       <form onSubmit={handleSubmit} className='frm'>
         <div className='text-center'>
           <motion.h1 className='text-2xl pt-10 pb-3 text-red-600 font-medium'
@@ -27,7 +27,11 @@ export default function FeedbackForm() {
           <h1 className='text-4xl text-black font-medium mb-5'><u className='decoration-red-600 decoration-3'>KEEP</u> IN TOUCH</h1>
         </div>
 
-        <Box sx={{ display: 'flex', flexWrap: 'wrap' }} className="feedform flex ">
+        <motion.Box sx={{ display: 'flex', flexWrap: 'wrap' }} className="feedform flex "
+          initial={{ y: +50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
           <div>
             <TextField
               id="outlined-start-adornment"
@@ -76,14 +80,10 @@ export default function FeedbackForm() {
             />
           </div>
 
-          <motion.div
-            initial={{ y: +50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <div>
             <button type="submit">Submit</button>
-          </motion.div>
-        </Box>
+          </div>
+        </motion.Box>
       </form>
     </div>
   );

@@ -105,5 +105,17 @@
   }
 }
 
+@media (max-width: 450px) {
+  .wel{
+    font-size: 4rem!important; 
+  }
+  .scroll{
+    display:none;
+  }
+  .main img {
+    margin-left: 30vw;
+  }
+}
+
 
 

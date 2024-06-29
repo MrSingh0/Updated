@@ -4,7 +4,11 @@
     }
 
     .mai{
-        padding: 0 10px;
+        padding: 0 10px!important;
+    }
+
+    .data{
+        font-size: 1rem!important;
     }
 
     .data, li{

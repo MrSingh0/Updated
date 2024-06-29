@@ -17,7 +17,7 @@ export default function DealershipForm() {
   };
 
   return (
-    <div className='mn flex justify-center w-full h-full bg-gray-200'>
+    <div className='mn flex justify-center w-full bg-gray-200'>
       <form onSubmit={handleSubmit} className='frm'>
         <motion.h1 className='text-2xl text-center pt-10 pb-3 text-red-600 font-medium'
           initial={{ y: -50, opacity: 0 }}
