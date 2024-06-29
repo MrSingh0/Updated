@@ -1,0 +1,18 @@
+@media (max-width: 490px) {
+    .headin{
+        font-size: 2rem;
+    }
+
+    .mai{
+        padding: 0 10px;
+    }
+
+    .data, li{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .data ul{
+        width: 80%;
+    }
+}

@@ -10,13 +10,13 @@ const Container = () => {
   return (
     <div className='sec flex justify-center'>
       <div className='box'>
-        <ImageBox url={first}/>
+        <ImageBox url={first} />
         <ContentBox data = "Our innovation centers around the development of a cutting-edge battery kit with unparalleled versatility."/>
       </div>
       
       <div className='box'>
         <ContentBox data = "One of the key benefits of our toolkit is the significant reduction in metal consumption."/>
-        <ImageBox url={second}/>
+        <ImageBox url={second} />
       </div>
 
       <div className='box'>

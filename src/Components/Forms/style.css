@@ -1,10 +1,18 @@
+.frm{
+    height: 75vh;
+    padding-bottom: 3rem;
+    background-color: var(--white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
 .feedform{
-    padding-top: 20px;
-    height: 49vh;
+    height: 55vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(white);
     text-align: center;
     color: var(--white);
     margin-bottom: 3rem;
@@ -16,10 +24,18 @@
 }
 
 .feedform button{
-    background: rgb(8, 99, 246);
+    background: crimson;
     color: white;
     font-weight: 600;
     font-size: 1.4rem;
     padding: 7px 40px;
     border-radius: 2rem;
 }
+
+@media (max-height: 781px){
+    .frm{
+        width: 90vw;
+    }
+}
+
+

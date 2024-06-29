@@ -3,6 +3,7 @@
     width: 100vw;
     align-items: center;
     background-color: var(--white);
+    border-radius: 2rem;
 }
 
 .box{
@@ -14,9 +15,49 @@
 
 .box:hover{
     background-color: crimson;
+    transform: scale(1.05);
+    border-radius: 1rem;
 }
 
 .imagebox img{
     border: 3px solid black;
     border-radius: 0.5rem;
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+@media (max-width: 650px) {
+    .sec {
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .box{
+        display: flex;
+        width: 90vw;
+        align-items: center;
+    }
+}
+
+@media (max-width: 570px) {
+    .sec {
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        height: 60vh;
+    }
+    .box{
+        display: flex;
+        width: 90vw;
+        align-items: center;
+    }
+}
+
+@media (min-height: 786px){
+    .box{
+        height: 25rem;
+    }
+}
+
