@@ -6,7 +6,7 @@ import './AboutStyle.css'
 
 const AboutUs = () => {
   return (
-    <div className='w-full text-black'>
+    <div className='w-full text-black aus'>
       <Navbar />
       <div className='mai pl-16 pr-16'>
         <h1 className='text-3xl text-red-600 font-medium mt-3 mb-3'><u className='decoration-black'>ABOUT US</u></h1>

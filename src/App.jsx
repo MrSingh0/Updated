@@ -6,6 +6,7 @@ import Dealership from './Pages/Dealership';
 import Feedback from './Pages/Feedback';
 import ProductPage from './Pages/ProductPage';
 import Contact from './Pages/Contact';
+import Product from './Components/Products/Product';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/dealership" element={<Dealership />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/products" element={<ProductPage />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,3 +1,7 @@
+.aus{
+    background-color: rgba(238, 232, 232, 0.736);
+}
+
 @media (max-width: 490px) {
     .headin{
         font-size: 2rem;

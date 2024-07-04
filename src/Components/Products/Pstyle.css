@@ -1,0 +1,83 @@
+.products{
+    height: 100vh;
+    background-color: rgba(223, 219, 219, 0.889);
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.products .lenk{
+    width: 35rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+}
+
+.products .lenk:hover{
+    transform: scale(1.05);
+}
+
+.products .lenk img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.products .lenk h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .products .lenk{
+        width: 20rem;
+        height: 50vh;
+    }
+    .products .lenk img{
+        width: 100%;
+        height: 100%;
+    }
+    .products{
+        height: 70vh;
+    }
+    .products .lenk h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 590px) {
+    .products .lenk{
+        width: 15rem;
+        height: 40vh;
+    }
+    .products .lenk img{
+        width: 100%;
+        height: 100%;
+    }
+    .products{
+        height: 60vh;
+    }
+    .products .lenk h1{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 505px) {
+    .allp {
+        flex-direction: column;
+        align-items: center;
+    }
+    .products{
+        height: fit-content;
+    }
+    .products .lenk{
+        margin-bottom: 1rem;
+        height: 50vh;
+    }
+
+}
