@@ -10,6 +10,7 @@ import Product12 from "../../assets/Product1.2.png";
 import Product13 from "../../assets/Product1.3.png";
 import Product14 from "../../assets/Product1.4.png";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const data = [
@@ -56,9 +57,9 @@ const Product = () => {
       <Navbar/>
       <h1 className="para mt-2 mb-2 ml-1 font-medium">
         <ChevronRightIcon className="text-black" />
-        <a href="/products" className="pare font-medium">
+        <Link to="/products" className="pare font-medium">
           Products
-        </a>
+        </Link>
         <ChevronRightIcon className="text-black"  />
         {product.name}
       </h1>
