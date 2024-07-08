@@ -1,6 +1,12 @@
 .fourth{
     background: var(--white);
-    color: var(--black);
+    color: var(--text);
+    font-family: "Kanit", sans-serif;
+}
+
+.bon{
+    color: var(--text)!important;
+    background-color: var(--hightlight);
 }
 
 .container{
@@ -8,5 +14,17 @@
 }
 
 .container:hover{
-    background-color: crimson;
+    background-color: #154C79;
+    color: white!important;
+}
+
+.bon .lenk{
+    background-color: var(--red);
+    padding: 5px 15px;
+    border-radius: 1rem;
+    width: 60%;
+    text-align: center;
+    position:relative;
+    bottom: 0.5rem;
+    color: white;
 }

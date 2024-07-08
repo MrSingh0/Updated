@@ -22,29 +22,17 @@ const Products = () => {
           <u className="decoration-red-600 decoration-3">OUR PRODUCTS</u>
         </motion.h1>
         <div className="allp flex mt-10 pl-4 pr-4">
-          <Link to="/product/1" className="lenk mr-2"
-            initial={{ x: -50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <Link to="/product/1" className="lenk mr-2">
             <img src={Pfirst} alt="Mercury Battery" />
             <h1 className="text-black">Mercury Battery Kit</h1>
           </Link>
 
-          <Link to="/product/2" className="lenk mr-2"
-            initial={{ y: +50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <Link to="/product/2" className="lenk mr-2">
             <img src={Psecond} alt="Mercury Battery" />
             <h1 className="text-black">Venus Battery Kit</h1>
           </Link>
 
-          <Link to="/product/3" className="lenk mr-2"
-            initial={{ x: +50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
+          <Link to="/product/3" className="lenk mr-2">
             <img src={Pthird} alt="Mercury Battery" />
             <h1 className="text-black">Earth Battery Kit</h1>
           </Link>

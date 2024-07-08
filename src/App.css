@@ -1,6 +1,9 @@
 :root{
-  --white: rgba(238, 232, 232, 0.736);
-  --black: #171717;
+  --white: #FFFFFF;
+  --black: #06121A;
+  --hightlight: #F7F4F2;
+  --text: #474747;
+  --red: #F71735;
 }
 
 body{

@@ -1,5 +1,7 @@
 .aus{
     background-color: rgba(238, 232, 232, 0.736);
+    font-family: "Kanit", sans-serif;
+    text-align: justify;
 }
 
 @media (max-width: 490px) {

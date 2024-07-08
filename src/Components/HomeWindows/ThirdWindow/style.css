@@ -1,14 +1,16 @@
 .third{
-    height: 70vh;
+    height: 75vh;
     width: 100vw;
-    background-color: var(--white);
+    background-color: var(--hightlight);
+    font-family: "Kanit", sans-serif;
+    text-align: justify;
     align-items: center;
-    color: var(--black)!important;
+    color: var(--text);
     padding-bottom: 3rem;
 }
 
 .third h1{
-    color: crimson;
+    color: var(--red);
     font-size: 3rem;
     font-weight: 600;
 }

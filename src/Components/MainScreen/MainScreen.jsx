@@ -8,8 +8,18 @@ const MainScreen = () => {
   return (
     <div className='main w-full'>
         <img src={flag} alt="" srcset="" />
-        <h1 className='wel'>FOREFRONT BHARAT</h1>
-        <p className='sust'>Sustainable Innovation Company</p>
+        <motion.h1 className='wel'
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >FOREFRONT BHARAT
+        </motion.h1>
+
+        <motion.p className='sust'
+          initial={{ x: +100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >Sustainable Innovation Company</motion.p>
 
         <motion.a href="" className='scroll'
           animate={{ y: [0, -10, 0] }} 

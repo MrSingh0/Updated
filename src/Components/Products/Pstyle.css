@@ -2,6 +2,7 @@
     height: 100vh;
     background-color: rgba(223, 219, 219, 0.889);
     transition: opacity 0.3s ease-in-out; 
+    font-family: "Kanit", sans-serif;
 }
 
 .products .lenk{

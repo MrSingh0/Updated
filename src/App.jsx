@@ -4,7 +4,7 @@ import HomePage from './Pages/HomePage';
 import AboutUs from './Pages/AboutUs';
 import Dealership from './Pages/Dealership';
 import Feedback from './Pages/Feedback';
-import ProductPage from './Pages/ProductPage';
+import Products from './Pages/ProductPage';
 import Contact from './Pages/Contact';
 import Product from './Components/Products/Product';
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="/contactus" element={<Contact />} />
         <Route path="/dealership" element={<Dealership />} />
         <Route path="/feedback" element={<Feedback />} />
-        <Route path="/products" element={<ProductPage />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
